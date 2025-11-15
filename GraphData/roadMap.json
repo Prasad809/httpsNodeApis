@@ -1,0 +1,382 @@
+{
+  "javascript": [
+    {
+      "title": "📌 1. Variables & Data Types",
+      "points": [
+        "let, const, and var",
+        "Data types: Number, String, Boolean, Null, Undefined, Symbol, Object"
+      ]
+    },
+    {
+      "title": "📌 2. Functions",
+      "points": [
+        "Function declaration vs expression",
+        "Arrow functions ()=>{}",
+        "Closures & lexical scope"
+      ]
+    },
+    {
+      "title": "📌 3. Objects & Arrays",
+      "points": [
+        "Creating, accessing, and modifying",
+        "Methods like push(), pop(), map(), filter()"
+      ]
+    },
+    {
+      "title": "📌 4. Control Flow",
+      "points": [
+        "if-else, switch statements",
+        "Loops: for, while, forEach"
+      ]
+    },
+    {
+      "title": "📌 5. ES6+ Features",
+      "points": [
+        "Template literals `` ${var} ``",
+        "Destructuring, Spread & Rest operators",
+        "Promises & async/await",
+        "Modules (import/export)"
+      ]
+    },
+    {
+      "title": "📌 6. DOM Manipulation",
+      "points": [
+        "Selecting elements (getElementById, querySelector)",
+        "Event listeners (addEventListener)",
+        "Changing element properties/styles"
+      ]
+    },
+    {
+      "title": "📌 7. Error Handling",
+      "points": [
+        "try-catch-finally",
+        "Throwing errors"
+      ]
+    },
+    {
+      "title": "📌 8. JSON & APIs",
+      "points": [
+        "JSON.parse() & JSON.stringify()",
+        "Fetch API for HTTP requests"
+      ]
+    }
+  ],
+  "html": [
+    {
+      "title": "📘 HTML 1. Structure & Basics",
+      "points": [
+        "HTML boilerplate",
+        "doctype, html, head, body tags",
+        "Block vs Inline elements"
+      ]
+    },
+    {
+      "title": "📘 HTML 2. Text & Formatting",
+      "points": [
+        "Headings (h1–h6)",
+        "Paragraphs, bold, italic, underline",
+        "Lists: ul, ol, li"
+      ]
+    },
+    {
+      "title": "📘 HTML 3. Forms & Inputs",
+      "points": [
+        "form, input, textarea, select, button",
+        "Attributes: name, value, placeholder, required"
+      ]
+    },
+    {
+      "title": "📘 HTML 4. Media & Links",
+      "points": [
+        "a href, target, rel",
+        "img src, alt",
+        "audio, video tags"
+      ]
+    },
+    {
+      "title": "📘 HTML 5. Semantic Elements",
+      "points": [
+        "section, article, aside, nav, header, footer",
+        "main, figure, figcaption"
+      ]
+    },
+    {
+      "title": "📘 HTML 6. Tables",
+      "points": [
+        "table, thead, tbody, tr, td, th",
+        "colspan and rowspan"
+      ]
+    },
+    {
+      "title": "📘 HTML 7. Attributes & Metadata",
+      "points": [
+        "id, class, style, title",
+        "meta tags (charset, viewport)"
+      ]
+    }
+  ],
+  "css": [
+    {
+      "title": "🎨 CSS 1. Basics & Syntax",
+      "points": [
+        "What is CSS?",
+        "CSS syntax: selectors, properties, values",
+        "Ways to apply CSS: inline, internal, external"
+      ]
+    },
+    {
+      "title": "🎨 CSS 2. Selectors",
+      "points": [
+        "Basic selectors: element, class, ID",
+        "Group, universal, descendant selectors",
+        "Attribute, pseudo-class (:hover), pseudo-element (::before)"
+      ]
+    },
+    {
+      "title": "🎨 CSS 3. Box Model",
+      "points": [
+        "Content, padding, border, margin",
+        "box-sizing: content-box vs border-box"
+      ]
+    },
+    {
+      "title": "🎨 CSS 4. Layout",
+      "points": [
+        "display: block, inline, inline-block, none",
+        "position: static, relative, absolute, fixed, sticky",
+        "float and clear",
+        "z-index"
+      ]
+    },
+    {
+      "title": "🎨 CSS 5. Flexbox",
+      "points": [
+        "display: flex and flex-direction",
+        "justify-content, align-items, align-content",
+        "flex-wrap, flex-grow, flex-shrink, flex-basis"
+      ]
+    },
+    {
+      "title": "🎨 CSS 6. Grid",
+      "points": [
+        "display: grid",
+        "grid-template-rows / columns",
+        "grid-area, gap, justify-items, align-items"
+      ]
+    },
+    {
+      "title": "🎨 CSS 7. Typography & Colors",
+      "points": [
+        "font-family, font-size, font-weight",
+        "line-height, letter-spacing, text-align",
+        "color, background-color, gradients"
+      ]
+    },
+    {
+      "title": "🎨 CSS 8. Transitions & Animations",
+      "points": [
+        "transition-property, duration, timing-function",
+        "keyframes and @keyframes",
+        "animation-name, duration, delay"
+      ]
+    },
+    {
+      "title": "🎨 CSS 9. Responsive Design",
+      "points": [
+        "Media queries",
+        "Relative units: %, em, rem, vh, vw",
+        "Mobile-first approach"
+      ]
+    },
+    {
+      "title": "🎨 CSS 10. Advanced Topics",
+      "points": [
+        "CSS variables (--var)",
+        "calc(), clamp(), min() / max()",
+        "Custom fonts (@font-face)",
+        "Browser prefixes and compatibility"
+      ]
+    }
+  ],
+  "python": [
+    {
+      "title": "🐍 Python 1. Basics & Syntax",
+      "points": [
+        "Variables and data types",
+        "Indentation and code blocks",
+        "Comments and docstrings"
+      ]
+    },
+    {
+      "title": "🐍 Python 2. Control Flow",
+      "points": [
+        "if, elif, else statements",
+        "for and while loops",
+        "break, continue, pass"
+      ]
+    },
+    {
+      "title": "🐍 Python 3. Functions",
+      "points": [
+        "Defining and calling functions",
+        "Arguments and return values",
+        "Lambda functions",
+        "Scope and lifetime of variables"
+      ]
+    },
+    {
+      "title": "🐍 Python 4. Data Structures",
+      "points": [
+        "Lists, tuples, sets, dictionaries",
+        "List comprehensions",
+        "Dictionary comprehensions"
+      ]
+    },
+    {
+      "title": "🐍 Python 5. Modules & Packages",
+      "points": [
+        "Importing modules",
+        "Creating your own modules",
+        "Using standard library"
+      ]
+    },
+    {
+      "title": "🐍 Python 6. File Handling",
+      "points": [
+        "Reading and writing files",
+        "Working with file paths",
+        "Using with statement for file operations"
+      ]
+    },
+    {
+      "title": "🐍 Python 7. Object-Oriented Programming",
+      "points": [
+        "Classes and objects",
+        "Attributes and methods",
+        "Inheritance and polymorphism",
+        "Encapsulation and magic methods"
+      ]
+    },
+    {
+      "title": "🐍 Python 8. Error Handling",
+      "points": [
+        "try, except blocks",
+        "finally and else clauses",
+        "Raising exceptions"
+      ]
+    },
+    {
+      "title": "🐍 Python 9. Advanced Topics",
+      "points": [
+        "Decorators",
+        "Generators and iterators",
+        "Context managers",
+        "Multithreading and multiprocessing"
+      ]
+    },
+    {
+      "title": "🐍 Python 10. Working with Libraries",
+      "points": [
+        "NumPy, Pandas for data manipulation",
+        "Matplotlib and Seaborn for visualization",
+        "Requests for HTTP",
+        "Flask and Django for web development"
+      ]
+    }
+  ],
+  "java": [
+    {
+      "title": "☕ Java 1. Basics & Syntax",
+      "points": [
+        "Java installation and setup",
+        "Variables and data types",
+        "Basic syntax and structure",
+        "Comments and conventions"
+      ]
+    },
+    {
+      "title": "☕ Java 2. Control Flow",
+      "points": [
+        "if, else-if, else statements",
+        "switch-case",
+        "for, while, do-while loops",
+        "break and continue"
+      ]
+    },
+    {
+      "title": "☕ Java 3. Object-Oriented Programming",
+      "points": [
+        "Classes and objects",
+        "Constructors",
+        "Inheritance",
+        "Polymorphism",
+        "Encapsulation",
+        "Abstraction",
+        "Interfaces and abstract classes"
+      ]
+    },
+    {
+      "title": "☕ Java 4. Data Types & Operators",
+      "points": [
+        "Primitive and reference data types",
+        "Operators: arithmetic, relational, logical",
+        "Type casting and conversion"
+      ]
+    },
+    {
+      "title": "☕ Java 5. Exception Handling",
+      "points": [
+        "try, catch, finally blocks",
+        "Throwing exceptions",
+        "Custom exceptions",
+        "Checked vs unchecked exceptions"
+      ]
+    },
+    {
+      "title": "☕ Java 6. Collections Framework",
+      "points": [
+        "List, Set, Map interfaces",
+        "ArrayList, LinkedList, HashSet, TreeSet, HashMap",
+        "Iterators and foreach loop"
+      ]
+    },
+    {
+      "title": "☕ Java 7. Multithreading & Concurrency",
+      "points": [
+        "Creating threads",
+        "Runnable interface",
+        "Synchronization",
+        "Thread lifecycle",
+        "Executor framework"
+      ]
+    },
+    {
+      "title": "☕ Java 8. Java 8 Features",
+      "points": [
+        "Lambda expressions",
+        "Streams API",
+        "Functional interfaces",
+        "Default and static methods in interfaces",
+        "Optional class"
+      ]
+    },
+    {
+      "title": "☕ Java 9+. Modern Features",
+      "points": [
+        "Modules system",
+        "Var keyword",
+        "Local variable type inference",
+        "Improvements in streams and collections"
+      ]
+    },
+    {
+      "title": "☕ Java 10+. Advanced Topics",
+      "points": [
+        "Garbage collection",
+        "Java memory model",
+        "JVM internals",
+        "Performance tuning"
+      ]
+    }
+  ]
+}

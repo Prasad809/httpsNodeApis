@@ -1,0 +1,273 @@
+{
+    "barGraphs": {
+        "xData": [
+            {
+                "data": [
+                    "Past Customer",
+                    "Present Customer",
+                    "Future Customer"
+                ]
+            }
+        ],
+        "seriesData": [
+            {
+                "data": [
+                    4,
+                    3,
+                    5
+                ]
+            },
+            {
+                "data": [
+                    1,
+                    6,
+                    3
+                ]
+            },
+            {
+                "data": [
+                    2,
+                    5,
+                    6
+                ]
+            }
+        ]
+    },
+    "chartContainer": {
+        "xData": [
+            {
+                "period": "0-4 Months",
+                "acquired": 120,
+                "retained": 100,
+                "churned": 20
+            },
+            {
+                "period": "4-8 Months",
+                "acquired": 150,
+                "retained": 120,
+                "churned": 30
+            },
+            {
+                "period": "8-12 Months",
+                "acquired": 130,
+                "retained": 110,
+                "churned": 20
+            }
+        ],
+        "seriesData": [
+            {
+                "type": "bar",
+                "yAxisKey": "acquisition",
+                "dataKey": "acquired",
+                "label": "New Customers",
+                "color": "#90caf9"
+            },
+            {
+                "type": "line",
+                "yAxisKey": "retention",
+                "dataKey": "retained",
+                "label": "Retained Customers",
+                "color": "#4caf50"
+            },
+            {
+                "type": "line",
+                "yAxisKey": "churn",
+                "dataKey": "churned",
+                "label": "Churned Customers",
+                "color": "#f44336"
+            }
+        ]
+    },
+    "lineCharts": {
+        "xData": [
+            {
+                "data": [
+                    1,
+                    2,
+                    3,
+                    5,
+                    8,
+                    10,
+                    12,
+                    15,
+                    18,
+                    20
+                ]
+            }
+        ],
+        "seriesData": [
+            {
+                "name": "Performance",
+                "data": [
+                    2,
+                    5.5,
+                    2,
+                    8.5,
+                    1.5,
+                    5,
+                    7,
+                    6.2,
+                    4.5,
+                    9
+                ]
+            }
+        ]
+    },
+    "pieChart": {
+        "xData": [
+            {
+                "data": [
+                    {
+                        "id": 0,
+                        "value": 10,
+                        "label": "Past Customer"
+                    },
+                    {
+                        "id": 1,
+                        "value": 15,
+                        "label": "Present Customer"
+                    },
+                    {
+                        "id": 2,
+                        "value": 20,
+                        "label": "Future Customer"
+                    },
+                    {
+                        "id": 3,
+                        "value": 8,
+                        "label": "Lost Customer"
+                    },
+                    {
+                        "id": 4,
+                        "value": 18,
+                        "label": "Returning Customer"
+                    },
+                    {
+                        "id": 5,
+                        "value": 12,
+                        "label": "New Customer"
+                    },
+                    {
+                        "id": 6,
+                        "value": 6,
+                        "label": "Inactive Customer"
+                    },
+                    {
+                        "id": 7,
+                        "value": 22,
+                        "label": "Premium Customer"
+                    }
+                ]
+            }
+        ]
+    },
+    "scatters": {
+        "xData": [
+            {
+                "id": "data-0",
+                "x1": 329.39,
+                "y1": 443.28,
+                "y2": 153.9
+            },
+            {
+                "id": "data-1",
+                "x1": 96.94,
+                "y1": 110.5,
+                "y2": 217.8
+            },
+            {
+                "id": "data-2",
+                "x1": 336.35,
+                "y1": 175.23,
+                "y2": 286.32
+            },
+            {
+                "id": "data-3",
+                "x1": 159.44,
+                "y1": 195.97,
+                "y2": 325.12
+            },
+            {
+                "id": "data-4",
+                "x1": 188.86,
+                "y1": 351.77,
+                "y2": 144.58
+            },
+            {
+                "id": "data-5",
+                "x1": 143.86,
+                "y1": 43.253,
+                "y2": 146.51
+            },
+            {
+                "id": "data-6",
+                "x1": 210.72,
+                "y1": 280.14,
+                "y2": 198.33
+            },
+            {
+                "id": "data-7",
+                "x1": 120.54,
+                "y1": 167.89,
+                "y2": 250.77
+            },
+            {
+                "id": "data-8",
+                "x1": 398.21,
+                "y1": 430.76,
+                "y2": 330.42
+            },
+            {
+                "id": "data-9",
+                "x1": 174.95,
+                "y1": 89.12,
+                "y2": 200.65
+            },
+            {
+                "id": "data-10",
+                "x1": 201.37,
+                "y1": 223.89,
+                "y2": 156.44
+            }
+        ]
+    },
+    "sparkLine": {
+        "xData": [
+            1,
+            4,
+            2,
+            5,
+            7,
+            2,
+            4,
+            6,
+            3,
+            8,
+            5,
+            9,
+            2,
+            7,
+            6,
+            10,
+            11,
+            3,
+            5,
+            8,
+            6,
+            7,
+            4,
+            9,
+            12,
+            2,
+            10,
+            3,
+            5,
+            6
+        ]
+    },
+    "cardsInfo":[
+        {"name":"PastCustomer","sales":135,"purchase":1262,"program":80,"platforms":6,"rates":3.6,"numberofCust":1356},
+        {"name":"PresentCustomer","sales":83,"purchase":253,"program":56,"platforms":4,"rates":4,"numberofCust":1423},
+        {"name":"FutureCustomer","sales":250,"purchase":1500,"program":95,"platforms":10,"rates":4.6,"numberofCust":2000}
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "response": [
+        {
+            "key": 1,
+            "value": "Maharashtra"
+        },
+        {
+            "key": 2,
+            "value": "Karnataka"
+        },
+        {
+            "key": 3,
+            "value": "Tamil Nadu"
+        },
+        {
+            "key": 4,
+            "value": "Uttar Pradesh"
+        },
+        {
+            "key": 5,
+            "value": "Gujarat"
+        },
+        {
+            "key": 6,
+            "value": "Rajasthan"
+        },
+        {
+            "key": 7,
+            "value": "Bihar"
+        },
+        {
+            "key": 8,
+            "value": "West Bengal"
+        },
+        {
+            "key": 9,
+            "value": "Madhya Pradesh"
+        },
+        {
+            "key": 10,
+            "value": "Punjab"
+        }
+    ]
+}

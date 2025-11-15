@@ -1,0 +1,1002 @@
+{
+  "htmlCourse": [
+    {
+      "id": 1,
+      "title": "Basic HTML Structure",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My First Page</title>\n</head>\n<body>\n  <h1>Hello, World!</h1>\n</body>\n</html>\n"
+    },
+    {
+      "id": 2,
+      "title": "Headings",
+      "code": "<h1>Main Heading</h1>\n<h2>Sub Heading</h2>\n<h3>Smaller Heading</h3>\n\n"
+    },
+    {
+      "id": 3,
+      "title": "Paragraphs & Line Breaks",
+      "code": "<p>This is a paragraph.</p>\n<br>\n<p>This is another paragraph.</p>\n"
+    },
+    {
+      "id": 4,
+      "title": "Text Formatting Tags",
+      "code": "<b>Bold</b>\n<i>Italic</i>\n<u>Underline</u>\n<mark>Marked</mark>\n<small>Small</small>\n<del>Deleted</del>\n<ins>Inserted</ins>\n<sup>Superscript</sup>\n<sub>Subscript</sub>\n"
+    },
+    {
+      "id": 5,
+      "title": "Links",
+      "code": "<a href=\"https://example.com\">Visit Example</a>\n<a href=\"#section1\">Jump to Section</a>\n"
+    },
+    {
+      "id": 6,
+      "title": "Images",
+      "code": "<img src=\"image.jpg\" alt=\"Description\" width=\"200\" height=\"100\">\n"
+    },
+    {
+      "id": 7,
+      "title": "Lists",
+      "code": "**Ordered List**\n<ol>\n  <li>First</li>\n  <li>Second</li>\n</ol>\n**Unordered List**\n<ul>\n  <li>Item A</li>\n  <li>Item B</li>\n</ul>\n**Description List**\n<dl>\n  <dt>HTML</dt>\n  <dd>HyperText Markup Language</dd>\n</dl>\n"
+    },
+    {
+      "id": 8,
+      "title": "Tables",
+      "code": "<table border=\"1\">\n  <tr>\n    <th>Name</th><th>Age</th>\n  </tr>\n  <tr>\n    <td>Alice</td><td>30</td>\n  </tr>\n</table>\n"
+    },
+    {
+      "id": 9,
+      "title": "Forms and Input",
+      "code": "<form action=\"/submit\">\n  <label>Name:</label>\n  <input type=\"text\" name=\"name\"><br>\n  <input type=\"submit\">\n</form>\n"
+    },
+    {
+      "id": 10,
+      "title": "Input Types",
+      "code": "<input type=\"text\">\n<input type=\"email\">\n<input type=\"password\">\n<input type=\"checkbox\">\n<input type=\"radio\">\n<input type=\"date\">\n<input type=\"submit\">\n"
+    },
+    {
+      "id": 11,
+      "title": "Semantic Elements",
+      "code": "<header>Site Header</header>\n<nav>Menu</nav>\n<main>Main Content</main>\n<article>Article Content</article>\n<aside>Sidebar</aside>\n<footer>Footer</footer>\n"
+    },
+    {
+      "id": 12,
+      "title": "Media Tags",
+      "code": "<video width=\"320\" height=\"240\" controls>\n  <source src=\"movie.mp4\" type=\"video/mp4\">\n</video>\n\n<audio controls>\n  <source src=\"sound.mp3\" type=\"audio/mpeg\">\n</audio>\n"
+    },
+    {
+      "id": 13,
+      "title": "Iframes",
+      "code": "<iframe src=\"https://example.com\" width=\"300\" height=\"200\"></iframe>\n"
+    },
+    {
+      "id": 14,
+      "title": "Meta Tags (In <head />)",
+      "code": "<meta charset=\"UTF-8\">\n<meta name=\"description\" content=\"Free HTML tutorial\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n"
+    },
+    {
+      "id": 15,
+      "title": "Block vs Inline Elements",
+      "code": "<div>This is block</div>\n<span>This is inline</span>\nBlock : div,p,h1,section\nInline : span,a,b,img\n"
+    },
+    {
+      "id": 16,
+      "title": "Comments",
+      "code": "<!-- This is a comment -->\n"
+    }
+  ],
+  "cssCourse": [
+    {
+      "id": 1,
+      "title": "Basic CSS Syntax",
+      "code": "selector {\n  property: value;\n}"
+    },
+    {
+      "id": 2,
+      "title": "Inline CSS",
+      "code": "<p style=\"color: red;\">This is red text.</p>"
+    },
+    {
+      "id": 3,
+      "title": "Internal CSS",
+      "code": "<style>\n  p {\n    color: green;\n  }\n</style>"
+    },
+    {
+      "id": 4,
+      "title": "External CSS",
+      "code": "<link rel=\"stylesheet\" href=\"styles.css\">"
+    },
+    {
+      "id": 5,
+      "title": "Selectors",
+      "code": "/* Element Selector */\np {\n  color: blue;\n}\n\n/* Class Selector */\n.myClass {\n  font-size: 18px;\n}\n\n/* ID Selector */\n#myId {\n  background-color: yellow;\n}"
+    },
+    {
+      "id": 6,
+      "title": "Colors",
+      "code": "h1 {\n  color: red;          /* Named color */\n  color: #ff0000;      /* Hex */\n  color: rgb(255, 0, 0); /* RGB */\n}"
+    },
+    {
+      "id": 7,
+      "title": "Box Model",
+      "code": "div {\n  width: 100px;\n  height: 100px;\n  padding: 10px;\n  border: 2px solid black;\n  margin: 20px;\n}"
+    },
+    {
+      "id": 8,
+      "title": "Text Styling",
+      "code": "p {\n  font-size: 16px;\n  font-family: Arial, sans-serif;\n  color: darkblue;\n  text-align: center;\n  text-decoration: underline;\n}"
+    },
+    {
+      "id": 9,
+      "title": "Backgrounds",
+      "code": "body {\n  background-color: lightgrey;\n  background-image: url(\"bg.jpg\");\n  background-repeat: no-repeat;\n  background-size: cover;\n}"
+    },
+    {
+      "id": 10,
+      "title": "Borders",
+      "code": "div {\n  border: 2px dashed red;\n  border-radius: 10px;\n}"
+    },
+    {
+      "id": 11,
+      "title": "Padding and Margin",
+      "code": ".box {\n  padding: 20px;\n  margin: 15px;\n}"
+    },
+    {
+      "id": 12,
+      "title": "Display Property",
+      "code": ".inline {\n  display: inline;\n}\n\n.block {\n  display: block;\n}\n\n.none {\n  display: none;\n}"
+    },
+    {
+      "id": 13,
+      "title": "Positioning",
+      "code": ".absolute-box {\n  position: absolute;\n  top: 50px;\n  left: 100px;\n}\n\n.relative-box {\n  position: relative;\n  top: 10px;\n  left: 10px;\n}"
+    },
+    {
+      "id": 14,
+      "title": "Flexbox",
+      "code": ".container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}"
+    },
+    {
+      "id": 15,
+      "title": "Grid Layout",
+      "code": ".grid-container {\n  display: grid;\n  grid-template-columns: auto auto auto;\n  gap: 10px;\n}"
+    },
+    {
+      "id": 16,
+      "title": "Hover Effects",
+      "code": "a:hover {\n  color: orange;\n  text-decoration: underline;\n}"
+    },
+    {
+      "id": 17,
+      "title": "Media Queries",
+      "code": "@media (max-width: 600px) {\n  body {\n    background-color: lightblue;\n  }\n}"
+    },
+    {
+      "id": 18,
+      "title": "Transitions",
+      "code": "div {\n  transition: background-color 0.5s ease;\n}\n\ndiv:hover {\n  background-color: pink;\n}"
+    },
+    {
+      "id": 19,
+      "title": "Animations",
+      "code": "@keyframes slideIn {\n  from {\n    transform: translateX(-100%);\n  }\n  to {\n    transform: translateX(0);\n  }\n}\n\n.box {\n  animation: slideIn 1s ease-in-out;\n}"
+    },
+    {
+      "id": 20,
+      "title": "Z-index",
+      "code": ".box1 {\n  position: absolute;\n  z-index: 2;\n}\n\n.box2 {\n  position: absolute;\n  z-index: 1;\n}"
+    }
+  ],
+  "javascriptCourse": [
+    {
+      "id": 1,
+      "title": "Basic Output",
+      "code": "console.log(\"Hello, World!\");\nalert(\"Hello, User!\");\ndocument.write(\"Welcome to JavaScript!\");\n"
+    },
+    {
+      "id": 2,
+      "title": "Variables (var, let, const)",
+      "code": "var name = \"John\";\nlet age = 30;\nconst country = \"USA\";\nconsole.log(age,country,name)\n"
+    },
+    {
+      "id": 3,
+      "title": "Data Types",
+      "code": "let str = \"Hello\";       // String\nlet num = 123;           // Number\nlet isActive = true;     // Boolean\nlet value = null;        // Null\nlet data;                // Undefined\nlet person = { name: \"Alice\", age: 25 }; // Object\nconsole.log(str,num,isActive,value,data,person)\n"
+    },
+    {
+      "id": 4,
+      "title": "Operators",
+      "code": "let x = 10 + 5;     // Arithmetic\nlet y = x > 5;         // Comparison\nlet z = true && false; // Logical\nconsole.log(x,y,z)\n"
+    },
+    {
+      "id": 5,
+      "title": "Functions",
+      "code": "function greet(name) {\n  return \"Hello, \" + name;\n}\n\nconsole.log(greet(\"Alice\"));\n"
+    },
+    {
+      "id": 6,
+      "title": "Arrow Functions",
+      "code": "const add = (a, b) => a + b;\nconsole.log(add(2, 3));\n"
+    },
+    {
+      "id": 7,
+      "title": "Conditional Statements",
+      "code": "let age = 20;\n\nif (age >= 18) {\n  console.log(\"Adult\");\n} else {\n  console.log(\"Minor\");\n}\n"
+    },
+    {
+      "id": 8,
+      "title": "Switch Statement",
+      "code": "let day = \"Monday\";\n\nswitch (day) {\n  case \"Monday\":\n    console.log(\"Start of the week\");\n    break;\n  case \"Friday\":\n    console.log(\"Weekend ahead!\");\n    break;\n  default:\n    console.log(\"Midweek day\");\n}\n"
+    },
+    {
+      "id": 9,
+      "title": "Loops (for, while)",
+      "code": "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}\n\nlet j = 0;\nwhile (j < 3) {\n  console.log(j);\n  j++;\n}\n"
+    },
+    {
+      "id": 10,
+      "title": "Arrays",
+      "code": "let fruits = [\"Apple\", \"Banana\", \"Cherry\"];\nconsole.log(fruits); // Banana\n\nfruits.push(\"Orange\");\nconsole.log(fruits,fruits.length); // 4\n"
+    },
+    {
+      "id": 11,
+      "title": "Objects",
+      "code": "let user = {\n  name: \"Alice\",\n  age: 25,\n  greet: function() {\n    return \"Hello \" + this.name;\n  }\n};\n\nconsole.log(user.greet());\n"
+    },
+    {
+      "id": 12,
+      "title": "Events",
+      "code": "<button onclick=\"sayHello()\">Click Me</button>\n\n<script>\nfunction sayHello() {\n  alert(\"Hello from button!\");\n}\n</script>\n"
+    },
+    {
+      "id": 13,
+      "title": "DOM Manipulation",
+      "code": "<p id=\"demo\">Original Text</p>\n<button onclick=\"changeText()\">Change</button>\n\n<script>\nfunction changeText() {\n  document.getElementById(\"demo\").innerHTML = \"Text changed!\";\n}\n</script>\n"
+    },
+    {
+      "id": 14,
+      "title": "Form Validation",
+      "code": "<form onsubmit=\"return validateForm()\">\n  <input type=\"text\" id=\"username\">\n  <input type=\"submit\">\n</form>\n\n<script>\nfunction validateForm() {\n  let name = document.getElementById(\"username\").value;\n  if (name === \"\") {\n    alert(\"Name is required\");\n    return false;\n  }\n  return true;\n}\n</script>\n"
+    },
+    {
+      "id": 15,
+      "title": "setTimeout & setInterval",
+      "code": "setTimeout(() => {\n  console.log(\"Executed after 2 seconds\");\n}, 2000);\n\nlet count = 0;\nlet interval = setInterval(() => {\n  console.log(++count);\n  if (count === 3) clearInterval(interval);\n}, 1000);\n"
+    },
+    {
+      "id": 16,
+      "title": "Try Catch (Error Handling)",
+      "code": "try {\n  let result = x + 5; // x is not defined\n} catch (error) {\n  console.error(\"Error:\", error.message);\n}\n"
+    },
+    {
+      "id": 17,
+      "title": "ES6 Destructuring",
+      "code": "let person = { name: \"John\", age: 30 };\nlet { name, age } = person;\nconsole.log(name); // John\n"
+    },
+    {
+      "id": 18,
+      "title": "Array Methods",
+      "code": "let nums = [1, 2, 3, 4, 5];\n\nlet doubled = nums.map(n => n * 2);\nlet evens = nums.filter(n => n % 2 === 0);\nlet sum = nums.reduce((a, b) => a + b, 0);\n"
+    },
+    {
+      "id": 19,
+      "title": "Promises",
+      "code": "let promise = new Promise((resolve, reject) => {\n  let success = true;\n  if (success) resolve(\"Done!\");\n  else reject(\"Failed!\");\n});\n\npromise.then(result => console.log(result))\n       .catch(error => console.error(error));\n"
+    },
+    {
+      "id": 20,
+      "title": "Async/Await",
+      "code": "async function fetchData() {\n  try {\n    let response = await fetch(\"https://jsonplaceholder.typicode.com/users\");\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error(\"Error:\", error);\n  }\n}\nfetchData();\n"
+    }
+  ],
+  "nodeCourse": [
+    {
+      "id": 1,
+      "title": "Basic HTTP Server",
+      "code": "const http = require('http');\n\nconst server = http.createServer((req, res) => {\n    res.write('Hello from Node.js!');\n    res.end();\n});\n\nserver.listen(3000, () => {\n    console.log('Server running at /api');\n});"
+    },
+    {
+      "id": 2,
+      "title": "Reading a File",
+      "code": "const fs = require('fs');\n\nfs.readFile('example.txt', 'utf8', (err, data) => {\n    if (err) throw err;\n    console.log(data);\n});"
+    },
+    {
+      "id": 3,
+      "title": "Writing to a File",
+      "code": "const fs = require('fs');\n\nfs.writeFile('output.txt', 'Hello Node.js!', (err) => {\n    if (err) throw err;\n    console.log('File written successfully');\n});"
+    },
+    {
+      "id": 4,
+      "title": "Creating a Module",
+      "code": "// myModule.js\nexports.sayHello = function(name) {\n    return \"Hello, \" + name;\n};\n\n// main.js\nconst myModule = require('./myModule');\nconsole.log(myModule.sayHello('Alice'));"
+    },
+    {
+      "id": 5,
+      "title": "Using npm & package.json",
+      "code": "// In terminal\nnpm init -y\nnpm install lodash\n\n// In code\nconst _ = require('lodash');\nconsole.log(_.capitalize('hello node'));"
+    },
+    {
+      "id": 6,
+      "title": "Creating a REST API with Express",
+      "code": "const express = require('express');\nconst app = express();\n\napp.get('/', (req, res) => {\n    res.send('Welcome to Express!');\n});\n\napp.listen(3000, () => console.log('Server on /api'));"
+    },
+    {
+      "id": 7,
+      "title": "Express Route Parameters",
+      "code": "app.get('/user/:id', (req, res) => {\n    res.send('User ID: ' + req.params.id);\n});"
+    },
+    {
+      "id": 8,
+      "title": "Handling POST Requests",
+      "code": "const express = require('express');\nconst app = express();\n\napp.use(express.json());\n\napp.post('/data', (req, res) => {\n    res.send('Received: ' + JSON.stringify(req.body));\n});"
+    },
+    {
+      "id": 9,
+      "title": "Middleware in Express",
+      "code": "app.use((req, res, next) => {\n    console.log('Request URL:', req.url);\n    next();\n});"
+    },
+    {
+      "id": 10,
+      "title": "Serving Static Files",
+      "code": "app.use(express.static('public')); // public/index.html"
+    },
+    {
+      "id": 11,
+      "title": "Environment Variables",
+      "code": "// .env\nPORT=4000\n\n// index.js\nrequire('dotenv').config();\nconst PORT = process.env.PORT || 3000;"
+    },
+    {
+      "id": 12,
+      "title": "Using MongoDB with Mongoose",
+      "code": "const mongoose = require('mongoose');\n\nmongoose.connect('mongodb://localhost:27017/testDB');\n\nconst User = mongoose.model('User', { name: String });\n\nconst user = new User({ name: 'Alice' });\nuser.save();"
+    },
+    {
+      "id": 13,
+      "title": "CRUD with Mongoose",
+      "code": "User.find({}, (err, users) => {\n    if (err) console.error(err);\n    console.log(users);\n});"
+    },
+    {
+      "id": 14,
+      "title": "Async/Await in Node.js",
+      "code": "const fetchData = async () => {\n    const data = await someAsyncFunc();\n    console.log(data);\n};"
+    },
+    {
+      "id": 15,
+      "title": "Events Module",
+      "code": "const EventEmitter = require('events');\nconst emitter = new EventEmitter();\n\nemitter.on('start', () => {\n    console.log('Started!');\n});\n\nemitter.emit('start');"
+    },
+    {
+      "id": 16,
+      "title": "Path Module",
+      "code": "const path = require('path');\nconsole.log(path.basename('/foo/bar/baz.txt'));"
+    },
+    {
+      "id": 17,
+      "title": "OS Module",
+      "code": "const os = require('os');\nconsole.log(os.platform());\nconsole.log(os.freemem());"
+    },
+    {
+      "id": 18,
+      "title": "Child Process Module",
+      "code": "const { exec } = require('child_process');\n\nexec('dir', (err, stdout, stderr) => {\n    if (err) throw err;\n    console.log(stdout);\n});"
+    },
+    {
+      "id": 19,
+      "title": "Creating a JSON API",
+      "code": "app.get('/api/users', (req, res) => {\n    res.json([{ name: 'Alice' }, { name: 'Bob' }]);\n});"
+    },
+    {
+      "id": 20,
+      "title": "Deploying Node.js App",
+      "code": "// Steps:\n// 1. Set \"start\" in package.json\n// 2. Use platforms like Heroku, Render, Vercel\n// Example script:\n// \"start\": \"node index.js\""
+    }
+  ],
+  "expressJsCourse": [
+    {
+      "id": 1,
+      "title": "Install Express",
+      "code": "// Terminal\nnpm init -y\nnpm install express"
+    },
+    {
+      "id": 2,
+      "title": "Basic Express Server",
+      "code": "const express = require('express');\nconst app = express();\n\napp.get('/', (req, res) => {\n    res.send('Hello from Express!');\n});\n\napp.listen(3000, () => {\n    console.log('Server running on /api');\n});"
+    },
+    {
+      "id": 3,
+      "title": "Handling GET Request",
+      "code": "app.get('/about', (req, res) => {\n    res.send('About Page');\n});"
+    },
+    {
+      "id": 4,
+      "title": "Handling POST Request",
+      "code": "app.use(express.json());\n\napp.post('/contact', (req, res) => {\n    res.send('Received data: ' + JSON.stringify(req.body));\n});"
+    },
+    {
+      "id": 5,
+      "title": "Route Parameters",
+      "code": "app.get('/user/:id', (req, res) => {\n    res.send('User ID: ' + req.params.id);\n});"
+    },
+    {
+      "id": 6,
+      "title": "Query Parameters",
+      "code": "// URL: /search?name=alice\napp.get('/search', (req, res) => {\n    res.send('Search query: ' + req.query.name);\n});"
+    },
+    {
+      "id": 7,
+      "title": "Static Files",
+      "code": "app.use(express.static('public'));\n// Serve public/index.html, public/style.css etc."
+    },
+    {
+      "id": 8,
+      "title": "Middleware Example",
+      "code": "app.use((req, res, next) => {\n    console.log('Time:', Date.now());\n    next();\n});"
+    },
+    {
+      "id": 9,
+      "title": "Express Router",
+      "code": "const router = express.Router();\n\nrouter.get('/profile', (req, res) => {\n    res.send('User Profile');\n});\n\napp.use('/user', router);\n// Access with /user/profile"
+    },
+    {
+      "id": 10,
+      "title": "Sending JSON Response",
+      "code": "app.get('/api', (req, res) => {\n    res.json({ message: 'Hello API' });\n});"
+    },
+    {
+      "id": 11,
+      "title": "Status Codes",
+      "code": "app.get('/notfound', (req, res) => {\n    res.status(404).send('Not Found');\n});"
+    },
+    {
+      "id": 12,
+      "title": "Error Handling Middleware",
+      "code": "app.use((err, req, res, next) => {\n    console.error(err.stack);\n    res.status(500).send('Something broke!');\n});"
+    },
+    {
+      "id": 13,
+      "title": "CORS Middleware",
+      "code": "const cors = require('cors');\napp.use(cors());"
+    },
+    {
+      "id": 14,
+      "title": "Using dotenv",
+      "code": "// .env\nPORT=4000\n\n// index.js\nrequire('dotenv').config();\napp.listen(process.env.PORT);"
+    },
+    {
+      "id": 15,
+      "title": "Connect to MongoDB",
+      "code": "const mongoose = require('mongoose');\nmongoose.connect('mongodb://localhost:27017/mydb')\n    .then(() => console.log('MongoDB connected'))\n    .catch(err => console.log(err));"
+    },
+    {
+      "id": 16,
+      "title": "Express with Mongoose Model",
+      "code": "const User = mongoose.model('User', {\n    name: String,\n    age: Number\n});\n\napp.post('/add-user', async (req, res) => {\n    const user = new User(req.body);\n    await user.save();\n    res.send(user);\n});"
+    },
+    {
+      "id": 17,
+      "title": "RESTful Routes",
+      "code": "app.get('/users', ...);    // Read all\napp.get('/users/:id', ...); // Read one\napp.post('/users', ...);    // Create\napp.put('/users/:id', ...); // Update\napp.delete('/users/:id', ...); // Delete"
+    },
+    {
+      "id": 18,
+      "title": "404 Not Found Route",
+      "code": "app.use((req, res) => {\n    res.status(404).send('Page not found');\n});"
+    },
+    {
+      "id": 19,
+      "title": "Request Headers and Body",
+      "code": "app.post('/info', (req, res) => {\n    console.log(req.headers);\n    console.log(req.body);\n    res.send('OK');\n});"
+    },
+    {
+      "id": 20,
+      "title": "Deploy to Render/Heroku",
+      "code": "// In package.json\n\"start\": \"node index.js\"\n\n// Use GitHub + Render.com or Heroku CLI to deploy\n// Make sure to set environment variables like MONGODB_URI"
+    }
+  ],
+  "mongoDbCourse": [
+    {
+      "id": 1,
+      "title": "MongoDB Installation (CLI)",
+      "code": "// Install MongoDB via terminal or from https://mongodb.com\n// Start MongoDB\nmongod // MongoDB server\nmongo  // Mongo shell"
+    },
+    {
+      "id": 2,
+      "title": "Creating a Database",
+      "code": "use myDatabase\n// Switches to or creates a new database"
+    },
+    {
+      "id": 3,
+      "title": "Creating a Collection",
+      "code": "db.createCollection(\"users\")"
+    },
+    {
+      "id": 4,
+      "title": "Inserting Documents",
+      "code": "db.users.insertOne({ name: \"Alice\", age: 25 })\n\ndb.users.insertMany([\n  { name: \"Bob\", age: 30 },\n  { name: \"Charlie\", age: 28 }\n])"
+    },
+    {
+      "id": 5,
+      "title": "Querying Documents",
+      "code": "db.users.find()  // All documents\ndb.users.find({ age: 25 })  // Filtered documents"
+    },
+    {
+      "id": 6,
+      "title": "Updating Documents",
+      "code": "db.users.updateOne(\n  { name: \"Alice\" },\n  { $set: { age: 26 } }\n)"
+    },
+    {
+      "id": 7,
+      "title": "Deleting Documents",
+      "code": "db.users.deleteOne({ name: \"Bob\" })\ndb.users.deleteMany({ age: { $lt: 30 } })"
+    },
+    {
+      "id": 8,
+      "title": "Operators ($gt, $lt, $in)",
+      "code": "db.users.find({ age: { $gt: 25 } })\ndb.users.find({ name: { $in: [\"Alice\", \"Charlie\"] } })"
+    },
+    {
+      "id": 9,
+      "title": "Sorting and Limiting",
+      "code": "db.users.find().sort({ age: -1 }).limit(2)"
+    },
+    {
+      "id": 10,
+      "title": "Indexes",
+      "code": "db.users.createIndex({ name: 1 })"
+    },
+    {
+      "id": 11,
+      "title": "Using MongoDB with Node.js (Mongoose)",
+      "code": "const mongoose = require('mongoose');\n\nmongoose.connect('mongodb://localhost:27017/testDB')\n  .then(() => console.log('Connected'))\n  .catch(err => console.error(err));"
+    },
+    {
+      "id": 12,
+      "title": "Defining Mongoose Schema",
+      "code": "const userSchema = new mongoose.Schema({\n  name: String,\n  age: Number\n});\n\nconst User = mongoose.model('User', userSchema);"
+    },
+    {
+      "id": 13,
+      "title": "Creating a Document (Mongoose)",
+      "code": "const newUser = new User({ name: 'Alice', age: 25 });\nnewUser.save();"
+    },
+    {
+      "id": 14,
+      "title": "Reading Documents (Mongoose)",
+      "code": "User.find().then(data => console.log(data));"
+    },
+    {
+      "id": 15,
+      "title": "Updating Documents (Mongoose)",
+      "code": "User.updateOne({ name: \"Alice\" }, { age: 26 })\n  .then(() => console.log(\"Updated\"));"
+    },
+    {
+      "id": 16,
+      "title": "Deleting Documents (Mongoose)",
+      "code": "User.deleteOne({ name: \"Charlie\" })\n  .then(() => console.log(\"Deleted\"));"
+    },
+    {
+      "id": 17,
+      "title": "Validation in Schema",
+      "code": "const userSchema = new mongoose.Schema({\n  name: { type: String, required: true },\n  age: { type: Number, min: 18 }\n});"
+    },
+    {
+      "id": 18,
+      "title": "Relationships (ref)",
+      "code": "const postSchema = new mongoose.Schema({\n  title: String,\n  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }\n});"
+    },
+    {
+      "id": 19,
+      "title": "Aggregation Framework",
+      "code": "db.users.aggregate([\n  { $match: { age: { $gte: 25 } } },\n  { $group: { _id: \"$age\", count: { $sum: 1 } } }\n])"
+    },
+    {
+      "id": 20,
+      "title": "Backup and Restore",
+      "code": "// Backup\nmongodump --db=myDatabase\n\n// Restore\nmongorestore --db=myDatabase ./dump/myDatabase"
+    }
+  ],
+  "gitCourse": [
+    {
+      "id": 1,
+      "title": "Initialize Repository",
+      "code": "git init\n// Initializes a new Git repository"
+    },
+    {
+      "id": 2,
+      "title": "Check Git Status",
+      "code": "git status\n// Shows the current state of the working directory and staging area"
+    },
+    {
+      "id": 3,
+      "title": "Add Files to Staging",
+      "code": "git add filename.txt\ngit add . // Add all files"
+    },
+    {
+      "id": 4,
+      "title": "Commit Changes",
+      "code": "git commit -m \"Initial commit\""
+    },
+    {
+      "id": 5,
+      "title": "View Commit History",
+      "code": "git log\ngit log --oneline"
+    },
+    {
+      "id": 6,
+      "title": "Create a New Branch",
+      "code": "git branch feature-xyz\ngit checkout -b feature-xyz // Create and switch"
+    },
+    {
+      "id": 7,
+      "title": "Switch Branch",
+      "code": "git checkout main"
+    },
+    {
+      "id": 8,
+      "title": "Merge Branches",
+      "code": "git checkout main\ngit merge feature-xyz"
+    },
+    {
+      "id": 9,
+      "title": "Delete Branch",
+      "code": "git branch -d feature-xyz"
+    },
+    {
+      "id": 10,
+      "title": "Clone Repository",
+      "code": "git clone https://github.com/user/repo.git"
+    },
+    {
+      "id": 11,
+      "title": "Push to Remote",
+      "code": "git push origin main"
+    },
+    {
+      "id": 12,
+      "title": "Pull from Remote",
+      "code": "git pull origin main"
+    },
+    {
+      "id": 13,
+      "title": "Add Remote Repository",
+      "code": "git remote add origin https://github.com/user/repo.git"
+    },
+    {
+      "id": 14,
+      "title": "Check Remotes",
+      "code": "git remote -v"
+    },
+    {
+      "id": 15,
+      "title": "Stash Changes",
+      "code": "git stash\ngit stash pop"
+    },
+    {
+      "id": 16,
+      "title": "Ignore Files (.gitignore)",
+      "code": "// .gitignore\nnode_modules/\n.env\n*.log"
+    },
+    {
+      "id": 17,
+      "title": "Undo Last Commit (Keep Changes)",
+      "code": "git reset --soft HEAD~1"
+    },
+    {
+      "id": 18,
+      "title": "Remove Tracked File",
+      "code": "git rm --cached filename.txt"
+    },
+    {
+      "id": 19,
+      "title": "Tagging a Release",
+      "code": "git tag v1.0\ngit push origin v1.0"
+    },
+    {
+      "id": 20,
+      "title": "Reverting a Commit",
+      "code": "git revert <commit-id>"
+    }
+  ],
+  "awsCourse": [
+    {
+      "id": 1,
+      "title": "What is AWS?",
+      "code": "AWS (Amazon Web Services) is a cloud platform offering services like:\n- EC2 (Compute)\n- S3 (Storage)\n- RDS (Databases)\n- Lambda (Serverless)\n- IAM (Access Management)"
+    },
+    {
+      "id": 2,
+      "title": "Set Up AWS CLI",
+      "code": "// Install AWS CLI\nhttps://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html\n\n// Configure AWS\naws configure\n// Enter Access Key, Secret, Region"
+    },
+    {
+      "id": 3,
+      "title": "S3 – Create a Bucket",
+      "code": "aws s3 mb s3://my-bucket-name\n// \"mb\" means Make Bucket"
+    },
+    {
+      "id": 4,
+      "title": "S3 – Upload/Download Files",
+      "code": "aws s3 cp file.txt s3://my-bucket-name/\naws s3 cp s3://my-bucket-name/file.txt ./"
+    },
+    {
+      "id": 5,
+      "title": "S3 – List & Delete",
+      "code": "aws s3 ls s3://my-bucket-name/\naws s3 rm s3://my-bucket-name/file.txt"
+    },
+    {
+      "id": 6,
+      "title": "Launch EC2 Instance",
+      "code": "// Using AWS Console OR CLI\naws ec2 run-instances --image-id ami-xyz --count 1 --instance-type t2.micro --key-name my-key --security-groups my-sg"
+    },
+    {
+      "id": 7,
+      "title": "Connect to EC2 via SSH",
+      "code": "ssh -i my-key.pem ec2-user@your-ec2-public-ip"
+    },
+    {
+      "id": 8,
+      "title": "Stop/Start/Terminate EC2",
+      "code": "aws ec2 stop-instances --instance-ids i-1234567890\naws ec2 start-instances --instance-ids i-1234567890\naws ec2 terminate-instances --instance-ids i-1234567890"
+    },
+    {
+      "id": 9,
+      "title": "IAM – Create a User",
+      "code": "// IAM > Users > Add user (Programmatic access)\n// Attach policies like AmazonS3FullAccess"
+    },
+    {
+      "id": 10,
+      "title": "IAM – Roles & Policies",
+      "code": "// IAM Role Example Policy:\n{\n  \"Effect\": \"Allow\",\n  \"Action\": \"s3:*\",\n  \"Resource\": \"*\"\n}"
+    },
+    {
+      "id": 11,
+      "title": "Lambda – Create Function",
+      "code": "// Console or CLI\naws lambda create-function --function-name helloLambda --runtime nodejs18.x --handler index.handler --role <IAM-role-arn>"
+    },
+    {
+      "id": 12,
+      "title": "Lambda – Sample Code",
+      "code": "exports.handler = async (event) => {\n  return {\n    statusCode: 200,\n    body: JSON.stringify(\"Hello from Lambda!\"),\n  };\n};"
+    },
+    {
+      "id": 13,
+      "title": "CloudWatch – Logs & Alarms",
+      "code": "// View logs\naws logs describe-log-groups\naws logs get-log-events --log-group-name ..."
+    },
+    {
+      "id": 14,
+      "title": "RDS – Launch Database",
+      "code": "// Console or CLI (MySQL/Postgres)\naws rds create-db-instance --db-instance-identifier mydb --db-instance-class db.t2.micro --engine mysql --master-username admin --master-user-password pass1234"
+    },
+    {
+      "id": 15,
+      "title": "Elastic Beanstalk – Deploy App",
+      "code": "eb init\neb create my-env\neb deploy"
+    },
+    {
+      "id": 16,
+      "title": "CloudFront – CDN Setup",
+      "code": "// Distribute S3 static site or web app\naws cloudfront create-distribution --origin-domain-name my-bucket.s3.amazonaws.com"
+    },
+    {
+      "id": 17,
+      "title": "VPC – Basics",
+      "code": "// VPC is a logically isolated network\n// Includes subnets, route tables, internet gateways"
+    },
+    {
+      "id": 18,
+      "title": "Route 53 – Domain Setup",
+      "code": "// Register domain or use existing\n// Set A record to EC2 IP or CloudFront"
+    },
+    {
+      "id": 19,
+      "title": "Auto Scaling Group",
+      "code": "// Create Launch Configuration + Auto Scaling Group\naws autoscaling create-auto-scaling-group --auto-scaling-group-name my-asg ..."
+    },
+    {
+      "id": 20,
+      "title": "Cost Monitoring with Billing",
+      "code": "// AWS Console > Billing Dashboard\n// Set budgets, alerts, and detailed cost reports"
+    }
+  ],
+  "reactCourse": [
+    {
+      "id": 1,
+      "title": "Create React App",
+      "code": "npx create-react-app my-app\ncd my-app\nnpm start"
+    },
+    {
+      "id": 2,
+      "title": "JSX Syntax",
+      "code": "const element = <h1>Hello, React!</h1>;\nReactDOM.render(element, document.getElementById('root'));"
+    },
+    {
+      "id": 3,
+      "title": "Functional Component",
+      "code": "function Welcome() {\n  return <h2>Welcome to React</h2>;\n}\n\nexport default Welcome;"
+    },
+    {
+      "id": 4,
+      "title": "Props in Components",
+      "code": "function Greet(props) {\n  return <h3>Hello, {props.name}</h3>;\n}\n\n<Greet name=\"Alice\" />"
+    },
+    {
+      "id": 5,
+      "title": "State in Component",
+      "code": "import { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  return (\n    <button onClick={() => setCount(count + 1)}>\n      Clicked {count} times\n    </button>\n  );\n}"
+    },
+    {
+      "id": 6,
+      "title": "useEffect Hook",
+      "code": "import { useEffect } from 'react';\n\nuseEffect(() => {\n  console.log(\"Component mounted\");\n}, []);"
+    },
+    {
+      "id": 7,
+      "title": "Conditional Rendering",
+      "code": "function User(props) {\n  return props.loggedIn ? <h1>Welcome</h1> : <h1>Please Log In</h1>;\n}"
+    },
+    {
+      "id": 8,
+      "title": "List Rendering",
+      "code": "const names = ['Alice', 'Bob'];\nreturn (\n  <ul>\n    {names.map((name) => <li key={name}>{name}</li>)}\n  </ul>\n);"
+    },
+    {
+      "id": 9,
+      "title": "Event Handling",
+      "code": "function Button() {\n  const handleClick = () => alert('Clicked!');\n  return <button onClick={handleClick}>Click Me</button>;\n}"
+    },
+    {
+      "id": 10,
+      "title": "Forms in React",
+      "code": "function Form() {\n  const [input, setInput] = useState(\"\");\n  return (\n    <form>\n      <input value={input} onChange={(e) => setInput(e.target.value)} />\n    </form>\n  );\n}"
+    },
+    {
+      "id": 11,
+      "title": "Lifting State Up",
+      "code": "// Parent Component\nfunction App() {\n  const [data, setData] = useState(\"\");\n  return <Child sendData={setData} />;\n}\n\nfunction Child({ sendData }) {\n  return <button onClick={() => sendData(\"From Child\")}>Send</button>;\n}"
+    },
+    {
+      "id": 12,
+      "title": "React Router Setup",
+      "code": "npm install react-router-dom\n\nimport { BrowserRouter, Routes, Route } from 'react-router-dom';"
+    },
+    {
+      "id": 13,
+      "title": "Routing Example",
+      "code": "<BrowserRouter>\n  <Routes>\n    <Route path=\"/\" element={<Home />} />\n    <Route path=\"/about\" element={<About />} />\n  </Routes>\n</BrowserRouter>"
+    },
+    {
+      "id": 14,
+      "title": "useParams & useNavigate",
+      "code": "import { useParams, useNavigate } from 'react-router-dom';\n\nconst navigate = useNavigate();\nconst { id } = useParams();"
+    },
+    {
+      "id": 15,
+      "title": "useRef Hook",
+      "code": "import { useRef } from 'react';\n\nconst inputRef = useRef();\n<input ref={inputRef} />\n<button onClick={() => inputRef.current.focus()}>Focus</button>"
+    },
+    {
+      "id": 16,
+      "title": "Custom Hook",
+      "code": "function useCounter() {\n  const [count, setCount] = useState(0);\n  const increment = () => setCount(c => c + 1);\n  return [count, increment];\n}"
+    },
+    {
+      "id": 17,
+      "title": "Context API",
+      "code": "const ThemeContext = React.createContext();\n\n<ThemeContext.Provider value=\"dark\">\n  <App />\n</ThemeContext.Provider>\n\nconst theme = useContext(ThemeContext);"
+    },
+    {
+      "id": 18,
+      "title": "useReducer Hook",
+      "code": "const reducer = (state, action) => {\n  switch(action.type) {\n    case 'increment': return state + 1;\n    default: return state;\n  }\n};\n\nconst [count, dispatch] = useReducer(reducer, 0);"
+    },
+    {
+      "id": 19,
+      "title": "Fetch API in useEffect",
+      "code": "useEffect(() => {\n  fetch('https://api.example.com')\n    .then(res => res.json())\n    .then(data => setData(data));\n}, []);"
+    },
+    {
+      "id": 20,
+      "title": "Deploy React App",
+      "code": "npm run build\n// For Netlify/Vercel: drag & drop \"build\" folder\n// For GitHub Pages:\nnpm install gh-pages\n// Add to package.json: \"homepage\": \"https://user.github.io/repo\"\n// Scripts:\n\"predeploy\": \"npm run build\",\n\"deploy\": \"gh-pages -d build\""
+    }
+  ],
+  "typescriptCourse": [
+    {
+      "id": 1,
+      "title": "Install TypeScript",
+      "code": "npm install -g typescript\ntsc --version"
+    },
+    {
+      "id": 2,
+      "title": "Compile TS to JS",
+      "code": "tsc index.ts\n// Produces index.js"
+    },
+    {
+      "id": 3,
+      "title": "Basic Types",
+      "code": "let name: string = \"Alice\";\nlet age: number = 25;\nlet isOnline: boolean = true;\nlet tags: string[] = [\"typescript\", \"js\"];"
+    },
+    {
+      "id": 4,
+      "title": "Type Inference",
+      "code": "let message = \"Hello\"; // inferred as string\n// message = 123; // Error"
+    },
+    {
+      "id": 5,
+      "title": "Functions with Types",
+      "code": "function greet(name: string): string {\n  return \"Hello \" + name;\n}"
+    },
+    {
+      "id": 6,
+      "title": "Optional & Default Params",
+      "code": "function greet(name: string = \"Guest\") {\n  console.log(\"Hello \" + name);\n}"
+    },
+    {
+      "id": 7,
+      "title": "Interfaces",
+      "code": "interface User {\n  name: string;\n  age: number;\n}\n\nconst user: User = { name: \"Bob\", age: 30 };"
+    },
+    {
+      "id": 8,
+      "title": "Type Aliases",
+      "code": "type ID = string | number;\n\nlet userId: ID = \"abc123\";"
+    },
+    {
+      "id": 9,
+      "title": "Enums",
+      "code": "enum Direction {\n  Up,\n  Down,\n  Left,\n  Right\n}\n\nlet move: Direction = Direction.Up;"
+    },
+    {
+      "id": 10,
+      "title": "Union & Intersection Types",
+      "code": "let data: string | number;\ntype Admin = { role: string };\ntype Person = { name: string };\ntype AdminUser = Admin & Person;"
+    },
+    {
+      "id": 11,
+      "title": "Generics",
+      "code": "function identity<T>(value: T): T {\n  return value;\n}\n\nidentity<string>(\"Hello\");\nidentity<number>(123);"
+    },
+    {
+      "id": 12,
+      "title": "Type Assertions",
+      "code": "let msg: any = \"hello\";\nlet msgLen = (msg as string).length;"
+    },
+    {
+      "id": 13,
+      "title": "Literal Types",
+      "code": "type Status = \"success\" | \"error\";\n\nlet state: Status = \"success\";"
+    },
+    {
+      "id": 14,
+      "title": "Tuples",
+      "code": "let user: [string, number] = [\"Alice\", 25];"
+    },
+    {
+      "id": 15,
+      "title": "Readonly & Optional Props",
+      "code": "interface Book {\n  readonly id: number;\n  title: string;\n  author?: string;\n}"
+    },
+    {
+      "id": 16,
+      "title": "Classes with Types",
+      "code": "class Animal {\n  name: string;\n  constructor(name: string) {\n    this.name = name;\n  }\n  move(): void {\n    console.log(this.name + \" moves\");\n  }\n}"
+    },
+    {
+      "id": 17,
+      "title": "Implements Interface",
+      "code": "interface Printable {\n  print(): void;\n}\n\nclass Report implements Printable {\n  print() {\n    console.log(\"Printing report...\");\n  }\n}"
+    },
+    {
+      "id": 18,
+      "title": "Namespaces & Modules",
+      "code": "// Export from file A.ts\nexport function greet() {\n  return \"Hello\";\n}\n\n// Import in file B.ts\nimport { greet } from \"./A\";"
+    },
+    {
+      "id": 19,
+      "title": "TypeScript with React",
+      "code": "npx create-react-app my-app --template typescript\n\n// Props type\ntype Props = { name: string };\n\nfunction Welcome({ name }: Props) {\n  return <h1>Hello {name}</h1>;\n}"
+    },
+    {
+      "id": 20,
+      "title": "TypeScript with Node.js",
+      "code": "npm init -y\nnpm install typescript @types/node --save-dev\n\n// tsconfig.json\ntsc --init\n\n// Run project\ntsc && node dist/index.js"
+    }
+  ]
+}
