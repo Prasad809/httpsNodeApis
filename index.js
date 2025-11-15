@@ -26,7 +26,10 @@ app.use('/home',(req,res)=>{
     res.send('<h1>Hello World</h1>')
 })
 
-
+app.listen(PORT,error=>{
+    if(error) return error;
+    console.log(`Server Running At ${PORT}...!`);
+})
 app.use('/cmgpd',cmgpd.serverControl);
 
 const sslOptions={
@@ -34,7 +37,7 @@ const sslOptions={
     cert:fs.readFileSync(path.join(__dirname,'CERTSSL','crt.pem'))
 }
 
-https.createServer(sslOptions,app).listen(PORT,(error)=>{
-    if(error) return error;
-    console.log(`Server Running At ${PORT}...!`);
-});
+// https.createServer(sslOptions,app).listen(PORT,(error)=>{
+//     if(error) return error;
+//     console.log(`Server Running At ${PORT}...!`);
+// });
