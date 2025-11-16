@@ -1,0 +1,678 @@
+{
+    "locations": [
+        {
+            "key": "PDR",
+            "value": "Paderu"
+        },
+        {
+            "key": "CTP",
+            "value": "Chintapalle"
+        },
+        {
+            "key": "GKV",
+            "value": "Gudem Kotha Veedhi"
+        },
+        {
+            "key": "AKP",
+            "value": "Anakapalle"
+        },
+        {
+            "key": "NSP",
+            "value": "Narsipatnam"
+        },
+        {
+            "key": "ATP",
+            "value": "Atchutapuram"
+        },
+        {
+            "key": "ANT",
+            "value": "Anantapur"
+        },
+        {
+            "key": "HDP",
+            "value": "Hindupur"
+        },
+        {
+            "key": "DVM",
+            "value": "Dharmavaram"
+        },
+        {
+            "key": "GTY",
+            "value": "Gooty"
+        },
+        {
+            "key": "RJP",
+            "value": "Rajampet"
+        },
+        {
+            "key": "RYC",
+            "value": "Rayachoti"
+        },
+        {
+            "key": "BDV",
+            "value": "Badvel"
+        },
+        {
+            "key": "BPT",
+            "value": "Bapatla"
+        },
+        {
+            "key": "CHR",
+            "value": "Chirala"
+        },
+        {
+            "key": "ADK",
+            "value": "Addanki"
+        },
+        {
+            "key": "CTR",
+            "value": "Chittoor"
+        },
+        {
+            "key": "MDP",
+            "value": "Madanapalle"
+        },
+        {
+            "key": "PGN",
+            "value": "Punganur"
+        },
+        {
+            "key": "KAK",
+            "value": "Kakinada"
+        },
+        {
+            "key": "RJY",
+            "value": "Rajahmundry"
+        },
+        {
+            "key": "TNI",
+            "value": "Tuni"
+        },
+        {
+            "key": "AMP",
+            "value": "Amalapuram"
+        },
+        {
+            "key": "ELR",
+            "value": "Eluru"
+        },
+        {
+            "key": "TDG",
+            "value": "Tadepalligudem"
+        },
+        {
+            "key": "JGD",
+            "value": "Jangareddygudem"
+        },
+        {
+            "key": "GNT",
+            "value": "Guntur"
+        },
+        {
+            "key": "TNL",
+            "value": "Tenali"
+        },
+        {
+            "key": "MGL",
+            "value": "Mangalagiri"
+        },
+        {
+            "key": "NRP",
+            "value": "Narasaraopet"
+        },
+        {
+            "key": "KAC",
+            "value": "Kakinada City"
+        },
+        {
+            "key": "KAR",
+            "value": "Kakinada Rural"
+        },
+        {
+            "key": "SML",
+            "value": "Samalkot"
+        },
+        {
+            "key": "MMV",
+            "value": "Mummidivaram"
+        },
+        {
+            "key": "RZL",
+            "value": "Razole"
+        },
+        {
+            "key": "VJW",
+            "value": "Vijayawada"
+        },
+        {
+            "key": "MCP",
+            "value": "Machilipatnam"
+        },
+        {
+            "key": "NZD",
+            "value": "Nuzvid"
+        },
+        {
+            "key": "GVD",
+            "value": "Gudivada"
+        },
+        {
+            "key": "KRL",
+            "value": "Kurnool"
+        },
+        {
+            "key": "NDL",
+            "value": "Nandyal"
+        },
+        {
+            "key": "ADN",
+            "value": "Adoni"
+        },
+        {
+            "key": "YMG",
+            "value": "Yemmiganur"
+        },
+        {
+            "key": "ATK",
+            "value": "Atmakur"
+        },
+        {
+            "key": "BNP",
+            "value": "Banaganapalle"
+        },
+        {
+            "key": "NLR",
+            "value": "Nellore"
+        },
+        {
+            "key": "GDR",
+            "value": "Gudur"
+        },
+        {
+            "key": "KVL",
+            "value": "Kavali"
+        },
+        {
+            "key": "VJW-W",
+            "value": "Vijayawada West"
+        },
+        {
+            "key": "VJW-E",
+            "value": "Vijayawada East"
+        },
+        {
+            "key": "VJW-C",
+            "value": "Vijayawada Central"
+        },
+        {
+            "key": "CKP",
+            "value": "Chilakaluripet"
+        },
+        {
+            "key": "STP",
+            "value": "Sattenapalle"
+        },
+        {
+            "key": "OGL",
+            "value": "Ongole"
+        },
+        {
+            "key": "KDR",
+            "value": "Kandukur"
+        },
+        {
+            "key": "RJYU",
+            "value": "Rajahmundry Urban"
+        },
+        {
+            "key": "RJYR",
+            "value": "Rajahmundry Rural"
+        },
+        {
+            "key": "VNG",
+            "value": "Venkatagiri"
+        },
+        {
+            "key": "PTP",
+            "value": "Puttaparthi"
+        },
+        {
+            "key": "PNK",
+            "value": "Penukonda"
+        },
+        {
+            "key": "SKM",
+            "value": "Srikakulam"
+        },
+        {
+            "key": "PLS",
+            "value": "Palasa"
+        },
+        {
+            "key": "TKL",
+            "value": "Tekkali"
+        },
+        {
+            "key": "TPT",
+            "value": "Tirupati"
+        },
+        {
+            "key": "SKH",
+            "value": "Srikalahasti"
+        },
+        {
+            "key": "PTR",
+            "value": "Puttur"
+        },
+        {
+            "key": "VSP",
+            "value": "Visakhapatnam"
+        },
+        {
+            "key": "GJW",
+            "value": "Gajuwaka"
+        },
+        {
+            "key": "BML",
+            "value": "Bheemili"
+        },
+        {
+            "key": "VZM",
+            "value": "Vizianagaram"
+        },
+        {
+            "key": "BBL",
+            "value": "Bobbili"
+        },
+        {
+            "key": "PVP",
+            "value": "Parvathipuram"
+        },
+        {
+            "key": "BVRM",
+            "value": "Bhimavaram"
+        },
+        {
+            "key": "PLK",
+            "value": "Palakollu"
+        },
+        {
+            "key": "NSP",
+            "value": "Narasapuram"
+        },
+        {
+            "key": "KDP",
+            "value": "Kadapa"
+        },
+        {
+            "key": "PRD",
+            "value": "Proddatur"
+        }
+    ],
+    "instType": [
+        {
+            "key": "SOFT",
+            "value": "Software"
+        },
+        {
+            "key": "GOVT",
+            "value": "Government"
+        },
+        {
+            "key": "NETW",
+            "value": "Networking"
+        },
+        {
+            "key": "CHEM",
+            "value": "Chemical"
+        }
+    ],
+    "Software": {
+        "FullStack": [
+            {
+                "key": "JAVA",
+                "value": "Java Full Stack Development"
+            },
+            {
+                "key": "PYTHON",
+                "value": "Python Full Stack Development"
+            },
+            {
+                "key": "MERN",
+                "value": "MERN Stack (MongoDB, Express, React, Node)"
+            },
+            {
+                "key": "MEAN",
+                "value": "MEAN Stack (MongoDB, Express, Angular, Node)"
+            },
+            {
+                "key": "DOTNET",
+                "value": ".NET Full Stack Development"
+            },
+            {
+                "key": "PHP",
+                "value": "PHP Full Stack Development"
+            }
+        ],
+        "Cloud": [
+            {
+                "key": "AWS",
+                "value": "AWS Cloud Computing"
+            },
+            {
+                "key": "AZURE",
+                "value": "Microsoft Azure Cloud"
+            },
+            {
+                "key": "GCP",
+                "value": "Google Cloud Platform (GCP)"
+            },
+            {
+                "key": "DEVOPS",
+                "value": "DevOps Coaching"
+            },
+            {
+                "key": "RPA",
+                "value": "RPA (UiPath, Automation Anywhere)"
+            }
+        ],
+        "Testing": [
+            {
+                "key": "TEST_MANUAL",
+                "value": "Manual Testing"
+            },
+            {
+                "key": "TEST_AUTOM",
+                "value": "Automation Testing (Selenium, Cypress)"
+            },
+            {
+                "key": "QA",
+                "value": "Quality Assurance (QA)"
+            }
+        ],
+        "AIML": [
+            {
+                "key": "DATASCI",
+                "value": "Data Science"
+            },
+            {
+                "key": "ML",
+                "value": "Machine Learning"
+            },
+            {
+                "key": "DL",
+                "value": "Deep Learning"
+            },
+            {
+                "key": "AI",
+                "value": "Artificial Intelligence"
+            },
+            {
+                "key": "BLOCK",
+                "value": "Blockchain Development"
+            },
+            {
+                "key": "IOT",
+                "value": "Internet of Things (IoT)"
+            }
+        ],
+        "Database": [
+            {
+                "key": "SQL",
+                "value": "SQL & Database Training"
+            },
+            {
+                "key": "ORACLE",
+                "value": "Oracle Developer / DBA"
+            },
+            {
+                "key": "MONGO",
+                "value": "MongoDB Training"
+            }
+        ],
+        "Design": [
+            {
+                "key": "UIUX",
+                "value": "UI/UX Designing"
+            },
+            {
+                "key": "GRAPHICS",
+                "value": "Graphic Designing"
+            }
+        ],
+        "CyberSecurity": [
+            {
+                "key": "CYBER",
+                "value": "Cybersecurity & Ethical Hacking"
+            }
+        ],
+        "Digital": [
+            {
+                "key": "DIGI",
+                "value": "Digital Marketing"
+            },
+            {
+                "key": "SEO",
+                "value": "SEO / SEM Training"
+            }
+        ]
+    },
+    "Government": {
+        "Civil Services": [
+            {
+                "key": "UPSC",
+                "value": "UPSC Civil Services Coaching"
+            },
+            {
+                "key": "IAS",
+                "value": "IAS Coaching"
+            },
+            {
+                "key": "IPS",
+                "value": "IPS Coaching"
+            }
+        ],
+        "Banking": [
+            {
+                "key": "BANK",
+                "value": "Bank Exams (IBPS, SBI)"
+            },
+            {
+                "key": "SSC",
+                "value": "SSC (CGL, CHSL, MTS) Coaching"
+            }
+        ],
+        "Railways": [
+            {
+                "key": "RAIL",
+                "value": "Railway Exams (RRB)"
+            },
+            {
+                "key": "POLICE",
+                "value": "Police / SI / Constable Coaching"
+            }
+        ],
+        "Defense": [
+            {
+                "key": "DEF",
+                "value": "Defense Exams (NDA, CDS, AFCAT)"
+            }
+        ],
+        "EngineeringMedical": [
+            {
+                "key": "JEE",
+                "value": "IIT JEE (Main & Advanced) Coaching"
+            },
+            {
+                "key": "NEET",
+                "value": "NEET Medical Entrance Coaching"
+            },
+            {
+                "key": "EAMCET",
+                "value": "EAMCET/Engineering Entrance Coaching"
+            },
+            {
+                "key": "CET",
+                "value": "Common Entrance Test Coaching"
+            }
+        ],
+        "Management": [
+            {
+                "key": "CAT",
+                "value": "CAT / MBA Entrance Coaching"
+            },
+            {
+                "key": "MAT",
+                "value": "MAT Coaching"
+            },
+            {
+                "key": "GMAT",
+                "value": "GMAT Coaching"
+            }
+        ],
+        "Accountancy": [
+            {
+                "key": "CA",
+                "value": "CA Coaching (Foundation, Inter, Final)"
+            },
+            {
+                "key": "CMA",
+                "value": "CMA Coaching"
+            },
+            {
+                "key": "CS",
+                "value": "CS Coaching"
+            }
+        ]
+    },
+    "Networking": {
+        "ComputerHardware": [
+            {
+                "key": "PC_REPAIR",
+                "value": "PC/Laptop Repair & Maintenance"
+            },
+            {
+                "key": "MOTHERBOARD",
+                "value": "Motherboard & Component Training"
+            },
+            {
+                "key": "PERIPHERALS",
+                "value": "Peripheral Devices & Troubleshooting"
+            }
+        ],
+        "Networking": [
+            {
+                "key": "CCNA",
+                "value": "Cisco Certified Network Associate (CCNA)"
+            },
+            {
+                "key": "CCNP",
+                "value": "Cisco Certified Network Professional (CCNP)"
+            },
+            {
+                "key": "NETWORK_PLUS",
+                "value": "CompTIA Network+ Certification"
+            },
+            {
+                "key": "CISCO",
+                "value": "Cisco Networking Basics"
+            },
+            {
+                "key": "LINUX_SERVER",
+                "value": "Linux Server Administration"
+            }
+        ],
+        "EmbeddedSystems": [
+            {
+                "key": "ARDUINO",
+                "value": "Arduino Programming & Hardware"
+            },
+            {
+                "key": "RASPBERRY_PI",
+                "value": "Raspberry Pi Projects & IoT"
+            },
+            {
+                "key": "MICROCONTROLLER",
+                "value": "Microcontroller Training (8051, PIC, ARM)"
+            }
+        ],
+        "Robotics": [
+            {
+                "key": "ROBOTICS",
+                "value": "Robotics Training"
+            },
+            {
+                "key": "AUTOMATION",
+                "value": "Industrial Automation & PLC"
+            }
+        ],
+        "ServerITInfrastructure": [
+            {
+                "key": "SERVER_ADMIN",
+                "value": "Server Administration & Troubleshooting"
+            },
+            {
+                "key": "CLOUD_INFRA",
+                "value": "Cloud Infrastructure Basics"
+            },
+            {
+                "key": "VIRTUALIZATION",
+                "value": "VMware / Virtualization Training"
+            }
+        ]
+    },
+    "Chemical": {
+        "ChemicalEngineering": [
+            {
+                "key": "CHEM_ENG",
+                "value": "Chemical Engineering Fundamentals"
+            },
+            {
+                "key": "PROCESS_ENG",
+                "value": "Process Engineering & Operations"
+            },
+            {
+                "key": "PLANT_DESIGN",
+                "value": "Chemical Plant Design & Management"
+            }
+        ],
+        "Pharmaceutical": [
+            {
+                "key": "PHARMA",
+                "value": "Pharmaceutical Industry Training"
+            },
+            {
+                "key": "QUALITY_CTRL",
+                "value": "Quality Control & Assurance in Pharma"
+            },
+            {
+                "key": "REGULATORY",
+                "value": "Regulatory Affairs & Compliance"
+            }
+        ],
+        "LaboratorySkills": [
+            {
+                "key": "LAB_SAFETY",
+                "value": "Laboratory Safety & Protocols"
+            },
+            {
+                "key": "CHEM_ANALYSIS",
+                "value": "Chemical Analysis Techniques"
+            },
+            {
+                "key": "INSTRUMENTATION",
+                "value": "Laboratory Instrumentation"
+            }
+        ],
+        "EnvironmentalSafety": [
+            {
+                "key": "ENV_TECH",
+                "value": "Environmental Technology & Waste Management"
+            },
+            {
+                "key": "CHEM_SAFETY",
+                "value": "Chemical Safety & Hazard Management"
+            }
+        ]
+    }
+}

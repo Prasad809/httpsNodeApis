@@ -1,0 +1,26 @@
+{
+    "users":[
+        {
+            "id":1,
+            "userName":"prasad@19",
+            "firstName":"durga",
+            "lastName":"prasad",
+            "email":"raoprasad@gmail.com",
+            "password":"123456",
+            "instituteId":"KAKIGOVT",
+            "status":"Y",
+            "isAdmin":"Y"
+        },
+        {
+            "id":2,
+            "userName":"kalyan@98",
+            "firstName":"kalyan",
+            "lastName":"pawan",
+            "email":"pawan@gmail.com",
+            "password":"654321",
+            "instituteId":"VZGSOFT",
+            "status":"N",
+            "isAdmin":"N"
+        }
+    ]
+}

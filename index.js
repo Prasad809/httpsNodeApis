@@ -5,15 +5,19 @@ const path=require('path');
 const fs=require('fs')
 const cors=require('cors');
 const bodyParser=require('body-parser')
-const graphEndPoint=require('./Routers/graphRouter')
-const cmgpd=require('./Controllers/serverControl')
+const graphEndPoint=require('./Routers/graphRouter');
+const instituteEndPoint=require('./Routers/projectData');
+const loginEndPoint=require('./Routers/loginRouter');
+const cmgpd=require('./Controllers/serverControl');
 
 const app=express()
 app.use(cors())
 app.use(bodyParser.json())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
-app.use('/graph',graphEndPoint)
+app.use('/graph',graphEndPoint);
+app.use('/institute',instituteEndPoint);
+app.use('/login',loginEndPoint);
 const PORT=process.env.PORT;
 
 app.use(cors({
