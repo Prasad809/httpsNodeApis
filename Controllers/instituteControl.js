@@ -2,6 +2,24 @@ const fs = require('fs').promises;
 const path = require('path');
 const instituteDtls=path.resolve('GraphData','projectData.json')
 
+const instuLocation=async(req,res)=>{
+    try{
+         const file = await fs.readFile(instituteDtls, 'utf8');
+        const data = JSON.parse(file);
+
+         return res.status(200).json({
+            status: true,
+            message: "success",
+            response:data?.locations
+        });
+    }catch(error){
+         return res.status(500).json({
+            description: "Internal Server Error",
+            status: false,
+            message: "failure"
+        });
+    }
+}
 const instuTypes=async(req,res)=>{
     try{
          const file = await fs.readFile(instituteDtls, 'utf8');
@@ -49,4 +67,4 @@ const instuCatogery=async(req,res)=>{
     }
 }
 
-module.exports={ instuTypes , instuCatogery}
+module.exports={ instuLocation , instuTypes , instuCatogery}
