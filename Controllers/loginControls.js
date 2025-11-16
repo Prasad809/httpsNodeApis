@@ -4,14 +4,12 @@ const usersDtl = require('../users/user.json')
 
 
 const loginUser = async (req, res) => {
-console.log(usersDtl,"123");
 
     try {
         const { userName, password, instituteId } = req.body;
         const userError = usersDtl?.users?.find(user => user.userName === userName);
         const passwordErr = usersDtl?.users?.find(user => user.password === password);
         const instituteIdErr = usersDtl?.users?.find(user => user.instituteId === instituteId);
-        console.log(userError,passwordErr,instituteIdErr);
         
         if (!userError || !passwordErr || !instituteIdErr) {
             return res.status(200).json({
